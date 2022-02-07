@@ -1,0 +1,25 @@
+{
+  "$id": "c_Answers_Sessions57450",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Answers Sessions",
+  "description": "Answers Sessions by Day",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_SESSIONS"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "SUM"
+    }
+  }
+}
