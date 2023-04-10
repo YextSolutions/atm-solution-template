@@ -1,6 +1,6 @@
 {
   "$id": "answersIndexing4",
-  "$schema": "https://schema.yext.com/config/streams/stream-config/v1",
+  "$schema": "https://schema.yext.com/config/streams/stream-endpoint/v1",
   "source": "knowledgeGraph",
   "destination": "answers",
   "fields": [
